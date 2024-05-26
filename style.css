@@ -4,6 +4,17 @@
     margin: 0;
 }
 
+
+/* shared */
+
+.container{
+    padding: 40px 15px 40px 15px;
+}
+
+
+/* header section styles */
+
+
 header{
     display: flex;
     justify-content: center;
@@ -34,12 +45,40 @@ header{
 }
 
 
-.container{
-    padding: 40px 15px 40px 15px;
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.offer > h1{
+    color: red;
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+
+.offer > p{
+    color: red;
+}
+
+.offer > h3{
+    padding-top: 10px;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+
+
+.new-year-img{
+    width: 50%;
+}
+
 
 
 .offer-incoming{
     display: flex;
     gap: 10px;
 }
+
+
