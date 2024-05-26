@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    background-image: url('./images/Banner\ Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.banner-content{
+    width: 90vw;
+    height: 90vh;
+    padding-top: 140px;
+    font-size: 40px;
+    background-image: -webkit-linear-gradient(-90deg,rgba(2, 2, 2, 0.75), rgba(104, 99, 99, 0.25));
+    
+}
+
+
+.container{
+    padding: 40px 15px 40px 15px;
+}
+
+
+.offer-incoming{
+    display: flex;
+    gap: 10px;
+}
