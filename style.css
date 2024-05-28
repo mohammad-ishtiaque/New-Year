@@ -263,3 +263,29 @@ header{
     bottom: 500px;
     left: 160px;
 }
+
+/* portfolio section */
+.portfolio_section{
+    margin: 0 80px;
+}
+
+.portfolio_section > h5{
+    font-size: 14px;
+    color: red;
+}
+
+.portfolio_section > h1{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.images > img{
+    width: 350px;
+}
+
+.images {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
