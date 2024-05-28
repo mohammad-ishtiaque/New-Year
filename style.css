@@ -32,6 +32,7 @@ header{
     align-items: center;
     text-align: center;
     color: white;
+    border-radius: 20px;
     
 }
 
@@ -44,6 +45,8 @@ header{
     
 }
 
+
+/* offer section */
 
 .offer{
     display: flex;
@@ -68,17 +71,195 @@ header{
     padding-bottom: 30px;
 }
 
-
-
 .new-year-img{
     width: 50%;
 }
 
 
+/* call to actioon */
 
-.offer-incoming{
+.cta-section{
+    /* background-image: -webkit-linear-gradient(-90deg,rgba(2, 2, 2, 0.75), rgba(104, 99, 99, 0.25)); */
+}
+
+.cta{
+    background-image: url('./images/Vectorrr.png');
+    background-repeat: no-repeat;
+    height: 100vh;
     display: flex;
-    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 30px;
+    border-radius: 20px;
+}
+
+.cta-text-content{
+    width: 40%;
+    color: white;
+   
+}
+
+.cta-text-content > h1{
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+
+.cta-text-content > p{
+    padding-bottom: 10px;
+}
+
+.cta-text-content > button{
+    border: 0;
+    padding: 10px 5px 10px 5px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.123);
+    color: #fff;
+    font-weight: 800;
 }
 
 
+.cta-img{
+    width: 250px;
+    padding-top: 40px;
+}
+
+
+/* location */
+
+.location {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    margin: 0px 30px;
+    background-color: aquamarine;
+}
+
+.location > h6 > span {
+    color: red;
+}
+
+.location > h6{
+    padding-top: 20px;
+}
+
+
+
+.location > button{
+    border: 0;
+    padding: 10px 5px 10px 5px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: red;
+    color: #fff;
+    font-weight: 800;
+}
+
+
+
+.offer-incoming{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 40px;
+    margin: 0 50px;
+    align-items: center;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+}
+
+.offer-incoming > img{
+    width: 300px;
+    border: 5px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.year > h4{
+    color: red;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.year > img {
+    padding-top: 20px;
+}
+
+.description > h6{
+    color: red;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.description > h3{
+    font-size: 32px ;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.holidays{
+    display: flex;
+    margin: 0 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.holiday_content{
+    display: flex;
+    margin: 0 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday_content > h1 > span{
+    color: red;
+}
+
+.holiday_content > h1 {
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.holiday_content > h6{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+
+.holiday_content > p{
+    text-align: center;
+}
+
+
+
+.red_img{
+    width: 80vw;
+    padding-top: 600px;
+    position: absolute;
+}
+
+.img_gift{
+    position: relative;
+    top: 360px;
+    right: 290px;
+    width: 500px;
+}
+
+.img_sur{
+    position: relative;
+    width: 400px;
+    left: 346px;
+    bottom: 190px;
+}
+
+.img_fifty{
+    position: relative;
+    width: 150px;
+    bottom: 500px;
+    left: 160px;
+}
