@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "PT Serif", serif;
 }
 
 
@@ -41,7 +42,7 @@ header{
     height: 90vh;
     padding-top: 140px;
     font-size: 40px;
-    background-image: -webkit-linear-gradient(-90deg,rgba(2, 2, 2, 0.75), rgba(104, 99, 99, 0.25));
+    background-image: -webkit-linear-gradient(-90deg,rgba(2, 2, 2, 0.911), rgba(104, 99, 99, 0.25));
     
 }
 
@@ -134,7 +135,7 @@ header{
     align-items: center;
     padding: 30px 20px;
     margin: 0px 30px;
-    background-color: aquamarine;
+    background-image: linear-gradient(180deg, #ffe9e9, #fff);
 }
 
 .location > h6 > span {
@@ -149,7 +150,7 @@ header{
 
 .location > button{
     border: 0;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 15px 10px 15px;
     border-radius: 8px;
     margin-top: 20px;
     background-color: red;
@@ -255,6 +256,7 @@ header{
     width: 400px;
     left: 346px;
     bottom: 190px;
+    z-index: -1;
 }
 
 .img_fifty{
@@ -269,14 +271,17 @@ header{
     margin: 0 80px;
 }
 
+
 .portfolio_section > h5{
     font-size: 14px;
     color: red;
+    padding-bottom: 10px;
 }
 
 .portfolio_section > h1{
     font-size: 34px;
     font-weight: 700;
+    padding-bottom: 8px;
 }
 
 .images > img{
@@ -294,9 +299,11 @@ header{
 
 
 
+
+
 /* subscribe_section */
 .subscribe_section{
-    background-color: blueviolet;
+    background-color: #fff2f2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -353,6 +360,46 @@ header{
     height: 50px;
     border: none;
     cursor: pointer;
-    background: red;
+    background: #FF0000;
     color: #fff;
 }
+
+
+/* footer */
+
+.footer{
+    background-color: #070211;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.social_media > img {
+    width: 50px;
+    margin-right: 20px;
+
+}
+
+hr{
+    margin: 0 100px;
+}
+
+.info, .copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 100px;
+}
+
+.contact > p{
+    padding-top: 10px;
+}
+
